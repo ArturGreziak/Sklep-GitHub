@@ -9,9 +9,19 @@ formElement.addEventListener("submit", (e) => {
 
   let sumaZamowienia = 0;
 
+  
+
   const cenaRozmiaruPizzy = [10, 15, 20];
 
+  const tab = cenaRozmiaruPizzy[pizza];
+
+  sumaZamowienia += tab;
+
   const cenaRozmiarusera = [5, 10, 15];
+
+  const tab2 = cenaRozmiarusera[ser];
+
+  sumaZamowienia += tab2;
 
   var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
   skladniki.forEach(function (el) {
