@@ -19,12 +19,10 @@ formElement.addEventListener("submit", (e) => {
   // {
   //   sumaZamowienia += 20.91;
   // }
+  const cenaRozmiaruPizzy = [10, 15, 20];
 
 
 
-pizza = [10, 15, 20];
-
-  
   // if (ser === "serMaly")
   // {
   //   sumaZamowienia += 5.27;
