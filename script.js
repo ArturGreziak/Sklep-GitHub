@@ -20,9 +20,10 @@ formElement.addEventListener("submit", (e) => {
   //   sumaZamowienia += 20.91;
   // }
 
-  const tablicaPizzy = pizza;
 
-  console.log(tablicaPizzy)
+
+pizza = [10, 15, 20];
+
   
   // if (ser === "serMaly")
   // {
