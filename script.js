@@ -9,27 +9,31 @@ formElement.addEventListener("submit", (e) => {
 
   let sumaZamowienia = 0;
 
-  if (pizza === "pizzaMala")
-  {
-    sumaZamowienia += 10.21;
-  } else if (pizza === "pizzaSrednia")
-  {
-    sumaZamowienia += 15.53;
-  } else if (pizza === "pizzaDuza")
-  {
-    sumaZamowienia += 20.91;
-  }
+  // if (pizza === "pizzaMala")
+  // {
+  //   sumaZamowienia += 10.21;
+  // } else if (pizza === "pizzaSrednia")
+  // {
+  //   sumaZamowienia += 15.53;
+  // } else if (pizza === "pizzaDuza")
+  // {
+  //   sumaZamowienia += 20.91;
+  // }
 
-  if (ser === "serMaly")
-  {
-    sumaZamowienia += 5.27;
-  } else if (ser === "serSredni")
-  {
-    sumaZamowienia += 10.53;
-  } else if (ser === "serDuzy")
-  {
-    sumaZamowienia += 15.91;
-  }
+  const tablicaPizzy = pizza;
+
+  console.log(tablicaPizzy)
+  
+  // if (ser === "serMaly")
+  // {
+  //   sumaZamowienia += 5.27;
+  // } else if (ser === "serSredni")
+  // {
+  //   sumaZamowienia += 10.53;
+  // } else if (ser === "serDuzy")
+  // {
+  //   sumaZamowienia += 15.91;
+  // }
 
   var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
   skladniki.forEach(function (el) {
