@@ -21,7 +21,7 @@ formElement.addEventListener("submit", (e) => {
   // }
   const cenaRozmiaruPizzy = [10, 15, 20];
 
-
+  const cenaRozmiarusera = [5, 10, 15];
 
   // if (ser === "serMaly")
   // {
