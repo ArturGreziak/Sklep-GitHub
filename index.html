@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzeria u Artura</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 class="heading">Pizzeria u Artura</h1>
+    <div class="products">
+
+      <form class="js-form">
+        <fieldset class="ramaka">
+          <legend>Skomponuj Pizze</legend>
+          <div class="ingredients">
+            <div class="pizza">
+              <h5>Wybierz wielkość Pizzy</h5>
+              <div class="dodatek">
+                <label>
+                  <img class="pizzaM" src="assets/size.png" alt="mała pizza"><br>
+                  <input type="radio" class="radioPizza" value="pizzaMala" name="pizza" checked> Pizza mała
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="pizzaS" src="assets/size.png" alt="Pizza mała"><br>
+                  <input type="radio" class="radioPizza" value="pizzaSrednia" name="pizza"> Pizza średnia
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="pizzaD" src="assets/size.png" alt="Pizza mała"><br>
+                  <input type="radio" class="radioPizza" value="pizzaDuza" name="pizza"> Pizza duża
+                </label>
+              </div>
+            </div>
+            <div class="ser">
+              <h5>Wybierz ilość sera</h5>
+              <div class="dodatek">
+                <label>
+                  <img class="serM radioSer" src="assets/ser.png" alt="ser-mały"><br>
+                  <input type="radio" class="serek" value="serMaly" name="ser" checked> Ser mały
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="serS radioSer" src="assets/ser.png" alt="ser-średni"><br>
+                  <input type="radio" class="serek" value="serSredni" name="ser"> Ser średni
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="serD radioSer" src="assets/ser.png" alt="ser-duży"><br>
+                  <input type="radio" class="serek" value="serDuzy" name="ser"> Ser duży
+                </label>
+              </div>
+            </div>
+            <div class="skladniki">
+              <h5 class="skla">Moje ulubione skladniki</h5>
+              <div class="dodatek">
+                <label>
+                  <img class="towarC" src="assets/cebula.png" alt="Cebula"><br>
+                  <input type="checkbox" class="jedzenie" value=1.0 name="skladnik" checked> Cebula
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="towarSZ" src="assets/szynka.png" alt="szynka"><br>
+                  <input type="checkbox" class="jedzenie" value=2.0 name="skladnik"> Szynka
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="towarPE" src="assets/pepperoni.png" alt="pepperoni"><br>
+                  <input type="checkbox" class="jedzenie " value=3.0 name="skladnik"> Pepperoni
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="chili" src="assets/chili.png" alt="chili"><br>
+                  <input type="checkbox" class="chilii" value=4.0 name="skladnik"> Chili
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="ananas" src="assets/ananas.png" alt="ananas"><br>
+                  <input type="checkbox" class="ananasy" value=5.0 name="skladnik"> Ananas
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="czosnek" src="assets/czosnek.png" alt="czosnek"><br>
+                  <input type="checkbox" class="czosneks" value=6.0 name="skladnik"> Czosnek
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="krewetki" src="assets/krewetki.png" alt="krewetki"><br>
+                  <input type="checkbox" class="krewetka" value=7.0 name="skladnik"> Krewetki
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="oliwki" src="assets/oliwki.png" alt="oliwki"><br>
+                  <input type="checkbox" class="oliwka" value=8.0 name="skladnik"> Oliwki
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="rukola" src="assets/rukola.png" alt="rukola"><br>
+                  <input type="checkbox" class="rukole" value=9.0 name="skladnik"> Rukola
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="kukurydza" src="assets/kukurydza.png" alt="kukurydza"><br>
+                  <input type="checkbox" class="kukurydze" value=10.0 name="skladnik"> Kukurydza
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="łosoś" src="assets/losos.png" alt="łosoś"><br>
+                  <input type="checkbox" class="losos" value=11.0 name="skladnik"> Łosoś
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="mozzarella" src="assets/mozzarella.png" alt="mozzarella"><br>
+                  <input type="checkbox" class="mozzarellaki" value=12.0 name="skladnik"> Mozzarella
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="papryka" src="assets/papryka.png" alt="papryka"><br>
+                  <input type="checkbox" class="papryki" value=13.0 name="skladnik"> Papryka
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="pomidor" src="assets/pomidor.png" alt="pomidor"><br>
+                  <input type="checkbox" class="pomidory" value=14.0 name="skladnik"> Pomidor
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="pieczarki" src="assets/pieczarki.png" alt="pieczarki"><br>
+                  <input type="checkbox" class="pieczark" value=15.0 name="skladnik"> Pieczarki
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="white" src="assets/white.png" alt="papryka"><br>
+                  <input type="checkbox" class="whitet" value=16.0 name="skladnik"> Cocacola
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="black" src="assets/black.png" alt="bleck"><br>
+                  <input type="checkbox" class="blackc" value=17.0 name="skladnik"> Cocacola 
+                </label>
+              </div>
+              <div class="dodatek">
+                <label>
+                  <img class="keczup" src="assets/keczup.png" alt="keczup"><br>
+                  <input type="checkbox" class="keczupM" value=18.0 name="skladnik"> Keczup
+                </label>
+              </div>
+
+            </div><br>
+            <button>Policz</button>
+            <div class="podsumowanie__zamowienia">
+              <h2>Podsumowanie Zamowienia</h2>
+              <p class="napis"> Cena Pizzy z dodatkami: <span class="cenaPizzy">0.0 PLN</span></p>
+			  <button type="reset">Wyczyść</button>
+            </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 937px;
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/tlo.jpg");
+  background-size: cover;
+}
+
+.heading {
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 400px;
+}
+
+.products {
+    margin: 370px auto;
+    max-height: 890px;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0, .4);
+}
+
+.ingredients {
+  width: 100%;
+  max-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  color:white
+}
+
+.dodatek {
+  width: 140px;
+  height: 70px;
+}
+
+.ramaka {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.pizzaM {
+  width: 35px;
+  height: 35px;
+  padding-top: 15px;
+}
+
+.pizzaS {
+  width: 42px;
+  height: 42px;
+  padding-top: 10px;
+}
+
+.pizzaD {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.towarC {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.towarSZ {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.towarPE {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.serM {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.serS {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.serD {
+  width: 53px;
+  height: 53px;
+  padding-top: -4px;
+}
+
+.chili {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.ananas {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.czosnek {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.krewetki {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.oliwki {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.rukola {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.kukurydza {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.łosoś {
+  width: 53px;
+  height: 53px;
+  padding-top: -20px;
+}
+
+.mozzarella {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.papryka {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.pomidor {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.pieczarki {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.white {
+  width: 19px;
+  height: 53px;
+  padding-top: 0;
+}
+
+.black {
+  width: 19px;
+  height: 53px;
+  padding-top: 0;
+}
+
+.keczup {
+  width: 53px;
+  height: 53px;
+  padding-top: 0px;
+}
+
+.skladniki {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.skla {
+  width: 100%;
+  text-align: center;
+}
+
+.pizza {
+  border-right: 1px solid white;
+  text-align: center;
+}
+
+.ser {
+  border-right: 1px solid white;
+  text-align: center;
+}
