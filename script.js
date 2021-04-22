@@ -23,12 +23,6 @@ formElement.addEventListener("submit", (e) => {
 
   sumaZamowienia += tab2;
 
-  // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
-  // skladniki.forEach(function (el) {
-  //   if (el.checked)
-  //     sumaZamowienia += Number(el.value);
-  // });
-
   const ingredients = [
     { name: "Cebula", price: 1 },
     { name: "Szynka", price: 4 },
@@ -51,11 +45,20 @@ formElement.addEventListener("submit", (e) => {
   ];
 
 
-  for(let i = 0; i < ingredients.length; i++){
-    sumaZamowienia += ingredients.name[i] + ingredients.price[i];
+  for (let i = 0; i < ingredients.length; i++)
+  {
+    sumaZamowienia += ingredients.name[i];
   }
 
-  // console.log(sumaZamowienia);
+  // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
+  // skladniki.forEach(function (el) {
+  //   if (el.checked)
+  //     sumaZamowienia += Number(el.value);
+  // });
+
+
+
+  console.log(sumaZamowienia);
   
   
   cenaZestawu.innerHTML = sumaZamowienia.toFixed(2) + 'PLN'
