@@ -50,7 +50,7 @@ formElement.addEventListener("submit", (e) => {
     { name: "Keczup", price: 5.33 }
   ];
 
-  console.log(sumaZamowienia);
+  // console.log(sumaZamowienia);
   
   
   cenaZestawu.innerHTML = sumaZamowienia.toFixed(2) + 'PLN'
