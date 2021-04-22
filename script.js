@@ -52,7 +52,7 @@ formElement.addEventListener("submit", (e) => {
 
 
   for(let i = 0; i < ingredients.length; i++){
-    
+    sumaZamowienia += ingredients.name[i] + ingredients.price[i];
   }
 
   // console.log(sumaZamowienia);
