@@ -23,11 +23,11 @@ formElement.addEventListener("submit", (e) => {
 
   sumaZamowienia += tab2;
 
-  var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
-  skladniki.forEach(function (el) {
-    if (el.checked)
-      sumaZamowienia += Number(el.value);
-  });
+  // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
+  // skladniki.forEach(function (el) {
+  //   if (el.checked)
+  //     sumaZamowienia += Number(el.value);
+  // });
 
   console.log(sumaZamowienia);
   
