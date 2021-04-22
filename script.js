@@ -50,6 +50,11 @@ formElement.addEventListener("submit", (e) => {
     { name: "Keczup", price: 5.33 }
   ];
 
+
+  for(let i = 0; i < ingredients.length; i++){
+    
+  }
+
   // console.log(sumaZamowienia);
   
   
