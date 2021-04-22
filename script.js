@@ -45,11 +45,12 @@ formElement.addEventListener("submit", (e) => {
   ];
 
 
-  
+
 
   for (let i = 0; i < ingredients.length; i++)
   {
     console.log(ingredients[i].name);
+    console.log(ingredients[i].price);
   }
 
   // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
