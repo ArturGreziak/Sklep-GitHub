@@ -45,9 +45,11 @@ formElement.addEventListener("submit", (e) => {
   ];
 
 
+  
+
   for (let i = 0; i < ingredients.length; i++)
   {
-    sumaZamowienia += ingredients.name[i];
+    console.log(ingredients[i].name);
   }
 
   // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
