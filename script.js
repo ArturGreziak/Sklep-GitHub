@@ -23,7 +23,15 @@ const ingredients = [
 
 for (let i = 0; i < ingredients.length; i++)
 {
-  ingredients[i].name.innerHTML = ` <div> ${ ingredients[i].price } </div>`
+  ingredients[i].name.innerHTML = ` 
+  
+  <div class="dodatek">
+      <label>
+        <img class="towarC" src="assets/cebula.png" alt="Cebula"><br>
+          <input type="checkbox" class="jedzenie" value=1.0 name="skladnik" checked> Cebula
+      </label>
+  </div>
+  `
 
 }
 
