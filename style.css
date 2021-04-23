@@ -31,7 +31,7 @@ body {
 
 .ingredients {
   width: 100%;
-  max-height: 800px;
+  max-height: 960px;
   display: flex;
   flex-wrap: wrap;
   color:white
@@ -193,10 +193,11 @@ body {
 }
 
 .skladniki {
-  width: 100%;
-  max-width: 960px;
+  width: 850%;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 280px;
+  margin-top: -200px;
 
 }
 
@@ -213,4 +214,9 @@ body {
 .ser {
   border-right: 1px solid white;
   text-align: center;
+}
+
+.podsumowanie__zamowienia {
+  margin-top: 30px;
+  margin-left: 400px;
 }
