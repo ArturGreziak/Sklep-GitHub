@@ -1,7 +1,7 @@
 let formElement = document.querySelector(".js-form");
 
 const ingredients = [
-  { name: "Cebula", price: 1 },
+  { name: "Cebula", price: 1, class: "towarC", src="assets/cebula.png", alt="Cebula", class: "jedzenie", value=1.0},
   { name: "Szynka", price: 4 },
   { name: "Pepperoni", price: 5 },
   { name: "Chili", price: 7 },
@@ -21,20 +21,12 @@ const ingredients = [
   { name: "Keczup", price: 5.33 }
 ];
 
+
+
 for (let i = 0; i < ingredients.length; i++)
 {
-  const el = document.querySelector('.dodatek');
+ 
 
-  el.innerHTML = ` 
-  
-  <div class="dodatek">
-    <label>
-      <img class="towarC" src="assets/cebula.png" alt="Cebula"><br>
-      <input type="checkbox" class="jedzenie" value=1.0 name="skladnik" checked> Cebula
-    </label>
-  </div>
-  
-  `
 }
 
 formElement.addEventListener("submit", (e) => {

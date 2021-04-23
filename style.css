@@ -193,7 +193,7 @@ body {
 }
 
 .skladniki {
-  width: 850%;
+  max-width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin-left: 280px;
