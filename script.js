@@ -23,8 +23,8 @@ const ingredients = [
 
 for (let i = 0; i < ingredients.length; i++)
 {
-  console.log(ingredients[i].name);
-  console.log(ingredients[i].price);
+  ingredients[i].name.innerHTML = ` <div> ${ ingredients[i].price } </div>`
+
 }
 
 formElement.addEventListener("submit", (e) => {
@@ -36,7 +36,7 @@ formElement.addEventListener("submit", (e) => {
 
   let sumaZamowienia = 0;
 
-  
+
 
   const cenaRozmiaruPizzy = [10, 15, 20];
 
@@ -50,7 +50,7 @@ formElement.addEventListener("submit", (e) => {
 
   sumaZamowienia += tab2;
 
- 
+
 
   // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
   // skladniki.forEach(function (el) {
@@ -61,7 +61,7 @@ formElement.addEventListener("submit", (e) => {
 
 
   console.log(sumaZamowienia);
-  
-  
+
+
   cenaZestawu.innerHTML = sumaZamowienia.toFixed(2) + 'PLN'
 });
