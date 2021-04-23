@@ -23,7 +23,7 @@ const ingredients = [
 
 for (let i = 0; i < ingredients.length; i++)
 {
-  const el = document.querySelector('.skladniki');
+  const el = document.querySelector('.zakupy');
 
   el.innerHTML = ` 
   
