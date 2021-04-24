@@ -21,15 +21,16 @@ const ingredients = [
   { value: "Keczup", price: 5.33, class_img: "keczup", src: "assets/keczup.png", alt: "keczup" }
 ];
 
-for(let i = 0; i < ingredients.length; i++){
-  
 const el = document.querySelector('.skladniki');
 
-el.innerHTML = ` 
+for (let i = 0; i < ingredients.length; i++)
+{
+
+  el.innerHTML = ` 
   
   <div class="dodatek">
     <label>
-       <img class=${ingredients[i].class_img } src=${ ingredients[i].src } ${ ingredients[i].alt }/><br>
+       <img class=${ ingredients[i].class_img } src=${ ingredients[i].src } ${ ingredients[i].alt }/><br>
        <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[i].value }
     </label>
   </div>
