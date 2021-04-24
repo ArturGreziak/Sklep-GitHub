@@ -1,7 +1,7 @@
 let formElement = document.querySelector(".js-form");
 
 const ingredients = [
-  { value: "Cebula", price: 1, class_img: "towarC", src: "../Sklep-GitHub/assets/cebula.png", alt: "Cebula" },
+  { value: "Cebula", price: 1, class_img: "towarC", src: "assets/cebula.png", alt: "Cebula" },
   { value: "Szynka", price: 4, class_img: "towarSZ", src: "assets/szynka.png", alt: "szynka" },
   { value: "Pepperoni", price: 5, class_img: "towarPE", src: "assets/pepperoni.png", alt: "pepperoni" },
   { value: "Chili", price: 7, class_img: "chili", src: "assets/chili.png", alt: "chili" },
