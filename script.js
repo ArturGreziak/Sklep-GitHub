@@ -31,7 +31,7 @@ for (let i = 0; i < ingredients.length; i++)
   <div class="dodatek">
     <label>
        <img class=${ ingredients[i].class_img } src=${ ingredients[i].src } ${ ingredients[i].alt }/><br>
-       <input type="checkbox" class="jedzenie" name="skladnik" value=${ingredients[i]}> ${ ingredients[i].value }
+       <input type="checkbox" class="jedzenie" name="skladnik" value=${ingredients[i].price}> ${ ingredients[i].value }
     </label>
   </div>
   
