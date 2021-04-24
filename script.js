@@ -22,12 +22,22 @@ const ingredients = [
 ];
 
 
-
 for (let i = 0; i < ingredients.length; i++)
 {
+  const el = document.querySelector('.skladniki');
 
-
+  el.innerHTML = ` 
+  
+  <div class="dodatek">
+    <label>
+      <img class="towarC" src="assets/cebula.png" alt="Cebula"><br>
+      <input type="checkbox" class="jedzenie" value=1.0 name="skladnik" checked> Cebula
+    </label>
+  </div>
+  
+  `
 }
+
 
 formElement.addEventListener("submit", (e) => {
   e.preventDefault();
