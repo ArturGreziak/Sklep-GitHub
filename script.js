@@ -1,7 +1,7 @@
 let formElement = document.querySelector(".js-form");
 
 const ingredients = [
-  { value: "Cebula", price: 1, class_img: "towarC", src: "assets/cebula.png", alt: "Cebula" },
+  { value: "Cebula", price: 1, class_img: "towarC", src: "../Sklep-GitHub/assets/cebula.png", alt: "Cebula" },
   { value: "Szynka", price: 4, class_img: "towarSZ", src: "assets/szynka.png", alt: "szynka" },
   { value: "Pepperoni", price: 5, class_img: "towarPE", src: "assets/pepperoni.png", alt: "pepperoni" },
   { value: "Chili", price: 7, class_img: "chili", src: "assets/chili.png", alt: "chili" },
@@ -29,8 +29,8 @@ el.innerHTML = `
   
   <div class="dodatek">
     <label>
-       <img class="towarSZ" src="../Sklep-GitHub/assets/szynka.png" ${ingredients.alt}><br>
-       <input type="checkbox" class="jedzenie" value=2.0 name="skladnik"> ${ ingredients.value }
+       <img ${ingredients[0].class_img} ${ingredients[0].src} ${ ingredients[0].alt }><br>
+       <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[0].value }
     </label>
   </div>
   
