@@ -21,21 +21,22 @@ const ingredients = [
   { value: "Keczup", price: 5.33, class_img: "keczup", src: "assets/keczup.png", alt: "keczup" }
 ];
 
-
-
+let sum = 0;
+for(let i = 0; i < ingredients.length; i++){
+  
 const el = document.querySelector('.skladniki');
 
 el.innerHTML = ` 
   
   <div class="dodatek">
     <label>
-       <img class=${ingredients[0].class_img } src=${ ingredients[0].src } ${ ingredients[0].alt }/><br>
-       <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[0].value }
+       <img class=${ingredients[i].class_img } src=${ ingredients[i].src } ${ ingredients[i].alt }/><br>
+       <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[i].value }
     </label>
   </div>
   
   `
-
+}
 formElement.addEventListener("submit", (e) => {
   e.preventDefault();
 
