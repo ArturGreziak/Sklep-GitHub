@@ -21,7 +21,6 @@ const ingredients = [
   { value: "Keczup", price: 5.33, class_img: "keczup", src: "assets/keczup.png", alt: "keczup" }
 ];
 
-let sum = 0;
 for(let i = 0; i < ingredients.length; i++){
   
 const el = document.querySelector('.skladniki');
