@@ -29,7 +29,7 @@ el.innerHTML = `
   
   <div class="dodatek">
     <label>
-       <img ${ingredients[0].class_img} ${ingredients[0].src} ${ ingredients[0].alt }><br>
+       <img class=${ingredients[0].class_img } src=${ ingredients[0].src } ${ ingredients[0].alt }/><br>
        <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[0].value }
     </label>
   </div>
