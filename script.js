@@ -26,12 +26,12 @@ const el = document.querySelector('.skladniki');
 for (let i = 0; i < ingredients.length; i++)
 {
 
-  el.innerHTML = ` 
+  el.innerHTML += ` 
   
   <div class="dodatek">
     <label>
        <img class=${ ingredients[i].class_img } src=${ ingredients[i].src } ${ ingredients[i].alt }/><br>
-       <input type="checkbox" class="jedzenie" name="skladnik"> ${ ingredients[i].value }
+       <input type="checkbox" class="jedzenie" name="skladnik" value=${ingredients[i]}> ${ ingredients[i].value }
     </label>
   </div>
   
@@ -62,11 +62,11 @@ formElement.addEventListener("submit", (e) => {
 
 
 
-  // var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
-  // skladniki.forEach(function (el) {
-  //   if (el.checked)
-  //     sumaZamowienia += Number(el.value);
-  // });
+  var skladniki = document.querySelectorAll('.skladniki input[type="checkbox"]');
+  skladniki.forEach(function (el) {
+    if (el.checked)
+      sumaZamowienia += Number(el.value);
+  });
 
 
 
