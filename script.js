@@ -30,8 +30,8 @@ for (let i = 0; i < ingredients.length; i++)
   
   <div class="dodatek">
     <label>
-      <img class="towarC" src="assets/cebula.png" alt="Cebula"><br>
-      <input type="checkbox" class="jedzenie" value=1.0 name="skladnik" checked> Cebula
+      <img class=${class_img} src=${src} alt=${alt}><br>
+      <input type="checkbox" class="jedzenie" value=${value} name="skladnik" checked> Cebula
     </label>
   </div>
   
