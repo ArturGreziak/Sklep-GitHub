@@ -29,6 +29,7 @@ el.innerHTML = `
   
   <div class="dodatek">
     <label>
+       <img class="towarSZ" src="../Sklep-GitHub/assets/szynka.png" alt="szynka"><br>
        <input type="checkbox" class="jedzenie" value=2.0 name="skladnik"> Szynka
     </label>
   </div>
